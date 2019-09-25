@@ -1,0 +1,15 @@
+---
+- name: Ensure HAProxy is installed
+  apt: name=haproxy state=installed
+
+# Verifica el estado de HAProxy, el cual no tiene de por si un indicador por lo que se le agrega uno forzozamente
+- name: Ensure HAProxy
+  lineinfile:
+    path: /etc/default/haproxy
+    regexp: "^ENABLED.+$"
+    line: "ENABLED=1"
+    state: present
+
+# Copiar un archivo de configuracion a la carpeta de haproxy en el servidor remoto
+-
+...
