@@ -1,15 +1,28 @@
 ---
+# Tareas asignadas para el role haproxy
+
 - name: Ensure HAProxy is installed
   apt: name=haproxy state=installed
 
 # Verifica el estado de HAProxy, el cual no tiene de por si un indicador por lo que se le agrega uno forzozamente
-- name: Ensure HAProxy
+- name: Ensure HAProxy is enabled
   lineinfile:
-    path: /etc/default/haproxy
+    dest: /etc/default/haproxy
     regexp: "^ENABLED.+$"
     line: "ENABLED=1"
     state: present
 
-# Copiar un archivo de configuracion a la carpeta de haproxy en el servidor remoto
--
+# Copiar el archivo de configuracion a la carpeta de haproxy en el servidor remoto
+- name: Copy HAProxy configuration file
+  template:
+    src: haproxy.cfg.j2
+    dest: /etc/haproxy/haproxy.cfg
+    mode: 0644
+    validate: haproxy -f %s -c -q
+  notify: restart haproxy
+
+# Verifica el estado de HAProxy
+- name: Ensure HAProxy is started and enabled on boot
+  service: name=haproxy state=started enabled=yes
+
 ...

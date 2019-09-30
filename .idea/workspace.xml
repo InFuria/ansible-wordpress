@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed2555fb-43b1-43b2-9b11-b068641096bd" name="Default Changelist" comment="" />
+    <list default="true" id="ed2555fb-43b1-43b2-9b11-b068641096bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbservers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbservers.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_vars/dbservers.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_vars/webservers.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/host_vars/dbsevers.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/host_vars/webserver-one" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/host_vars/webserver-two" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/apache/defaults/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/apache/handlers/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/apache/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/apache/templates/vhosts.conf.j2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/haproxy/defaults/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/haproxy/handlers/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/mysql/defaults/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/mysql/handlers/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/mysql/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/mysql/templates/.my.cnf.j2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/mysql/templates/mysqld.cnf.j2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/php/defaults/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/php/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webservers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webservers.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group_vars/loadbalancers.yml" beforeDir="false" afterPath="$PROJECT_DIR$/group_vars/loadbalancers.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/host_vars/loadbalancer" beforeDir="false" afterPath="$PROJECT_DIR$/host_vars/loadbalancer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loadbalancers.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loadbalancers.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/haproxy/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/haproxy/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/haproxy/templates/haproxy.cfg.j2" beforeDir="false" afterPath="$PROJECT_DIR$/roles/haproxy/templates/haproxy.cfg.j2" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,10 +43,18 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1RLK6KZRPEp8YBVcaeuQFm6i0H2" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/code/momo2-bolivia" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -41,10 +79,38 @@
       <option name="presentableId" value="Default" />
       <updated>1569440759561</updated>
       <workItem from="1569440761040" duration="1576000" />
+      <workItem from="1569446737186" duration="1482000" />
+      <workItem from="1569509240749" duration="695000" />
+      <workItem from="1569512267974" duration="56000" />
+      <workItem from="1569512340476" duration="45000" />
+      <workItem from="1569512408957" duration="24000" />
+      <workItem from="1569512434988" duration="51000" />
+      <workItem from="1569512504433" duration="30000" />
+      <workItem from="1569512567500" duration="651000" />
+      <workItem from="1569513846882" duration="30000" />
+      <workItem from="1569513904100" duration="20000" />
+      <workItem from="1569513925448" duration="771000" />
+      <workItem from="1569516653358" duration="7670000" />
+      <workItem from="1569593655166" duration="12995000" />
+      <workItem from="1569614567790" duration="6115000" />
+      <workItem from="1569850234670" duration="1981000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

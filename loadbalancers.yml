@@ -1,4 +1,5 @@
 ---
+# Playbook que gestiona al servidor loadbalancer
 - name: Load balancer playbook
   hosts: loadbalancers
   roles:

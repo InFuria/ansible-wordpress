@@ -1,0 +1,9 @@
+---
+# Playbook para los servidores web
+
+- name: Web servers playbook
+  hosts: webservers
+  roles:
+    - role: apache
+    - role: php
+...
